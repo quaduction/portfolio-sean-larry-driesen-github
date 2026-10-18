@@ -294,7 +294,7 @@ main {
 }
 
 .project-category-filter:hover,
-.project-card-button:hover {
+.project-card-button:hover, .project-popup-link:hover {
     padding: 0.7rem 1.1rem;
     background-color: var(--text-light-green);
     box-shadow: 0 -2px 3px 3px var(--text-lighter-green);
@@ -440,6 +440,7 @@ main {
     padding: 0.6rem 1rem;
     border: 1.5px solid var(--box-outline-light-green);
     box-shadow: 0 -2px 3px 3px var(--glow-lime);
+    transition: 0.2s
 }
 
 .project-popup-process {
